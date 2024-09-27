@@ -1,8 +1,8 @@
 # Identificação
 
-* Nome: 
-* Email (@ccc): 
-* Matrícula: 
+* Nome: Anderson Sabino Barboza Silva
+* Email (@ccc): anderson.sabino.barboza.silva@ccc.ufcg.edu.br
+* Matrícula: 122210263
 
 # Roteiro: isAVL
 
