@@ -12,14 +12,14 @@ public class BST {
     }
 
     private boolean isAVL(Node node) {
-        if (balance(node) >= -1 && balance(node) <= 1) {
+        if (node == null) {
             return true;
-        } else if (balance(node) < -1 || balance(node) > 1) {
+        }
+        int balance = balance(node);
+        if (balance < -1 || balance > 1) {
             return false;
         }
-        else {
-            return isAVL(node.left) && isAVL(node.right);
-        }
+        return isAVL(node.left) && isAVL(node.right);
     }
 
     /**
